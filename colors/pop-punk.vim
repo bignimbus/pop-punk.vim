@@ -145,7 +145,7 @@ call s:h('Title', s:white, s:none)
 call s:h('VertSplit', s:gray_7, s:black, [s:attrs.bold])
 call s:h('Visual', s:gray_1, s:mauve)
 " call s:h('VisualNOS', s:gray_1, s:mauve)
-call s:h('WarningMsg', s:gray_1, s:sun)
+call s:h('WarningMsg', s:gray_1, s:yellow)
 
 " Syntax
 
