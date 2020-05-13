@@ -12,7 +12,11 @@ colorscheme pop-punk
 
 ## Notes
 
-✏️ Coming soon!
+Screenshots were taken with the following settings:
+
+* Hack font (Nerd Font patched version) with vim-devicons
+* Airline status/tab bars
+* iTerm2 v3.3 (24-bit color)
 
 ## Screenshots
 
