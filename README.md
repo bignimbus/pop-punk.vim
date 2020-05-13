@@ -16,7 +16,10 @@ colorscheme pop-punk
 
 ## Screenshots
 
-🖼 Coming soon!
+![typescript](assets/typescript.png)
+![popup](assets/popup.png)
+![tsx](assets/tsx.png)
+![ruby](assets/ruby.png)
 
 ## To do
 
