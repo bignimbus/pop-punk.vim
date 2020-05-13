@@ -1,2 +1,21 @@
-# pop-punk.vim
-🎸 High-contrast color theme for vim
+# 🎸 Pop-Punk
+
+## Installation
+
+Just like any other vim theme.  Use your plugin manager of choice, or
+just copy `colors/pop-punk.vim` to your local `.vim/colors/` directory.
+
+## Notes
+
+✏️ Coming soon!
+
+## Screenshots
+
+🖼
+
+Coming soon!
+
+## To do
+
+* Slightly more robust documentation
+* Airline theme
