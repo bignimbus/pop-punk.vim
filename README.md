@@ -1,5 +1,7 @@
 # 🎸 Pop-Punk
 
+![jsx](https://gitcdn.link/repo/bignimbus/pop-punk.vim/6e236913d73448405906b2079758aed4b91a6203/assets/jsx.png)
+
 ## Installation
 
 Just like any other vim theme.  Use your plugin manager of choice, or
@@ -20,7 +22,6 @@ Screenshots were taken with the following settings:
 
 ## Screenshots
 
-![jsx](https://gitcdn.link/repo/bignimbus/pop-punk.vim/6e236913d73448405906b2079758aed4b91a6203/assets/jsx.png)
 ![css](https://gitcdn.link/repo/bignimbus/pop-punk.vim/6e236913d73448405906b2079758aed4b91a6203/assets/css.png)
 ![ruby](https://gitcdn.link/repo/bignimbus/pop-punk.vim/6e236913d73448405906b2079758aed4b91a6203/assets/ruby.png)
 ![html](https://gitcdn.link/repo/bignimbus/pop-punk.vim/6e236913d73448405906b2079758aed4b91a6203/assets/html.png)
