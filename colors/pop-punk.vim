@@ -12,7 +12,7 @@ let g:colors_name = "pop-punk"
 
 " Palette
 
-let s:white = ['#ffffff', 231]
+let s:white = ['#ffffff', 15]
 let s:gray_1 = ['#1a1a1a', 16]
 let s:gray_2 = ['#2e373e', 237]
 let s:gray_3 = ['#3a3a3a', 237]
@@ -24,18 +24,18 @@ let s:black = ['#000000', 16]
 let s:eggshell = ['#ffffcd', 230]
 let s:mauve = ['#e4dfff', 189]
 let s:blue = ['#0088ff', 33]
-let s:teal = ['#40e0d0', 44]
-let s:magenta = ['#c526ff', 165]
+let s:teal = ['#40e0d0', 80]
+let s:magenta = ['#c526ff', 13]
 let s:burgundy = ['#5f2a5f', 53]
 let s:red_1 = ['#d70061', 161]
 let s:red_2 = ['#ff005f', 197]
 let s:orange = ['#ff9d00', 214]
-let s:sun = ['#ffdd00', 214]
-let s:yellow = ['#ffff00', 226]
+let s:sun = ['#ffdd00', 220]
+let s:yellow = ['#ffff00', 11]
 let s:pink = ['#f9e0f5', 225]
-let s:green = ['#3ad900', 40]
+let s:green = ['#3ad900', 76]
 let s:cobalt_1 = ['#306b8f', 24]
-let s:cobalt_2 = ['#445291', 24]
+let s:cobalt_2 = ['#445291', 60]
 
 let s:none      = ['NONE', 'NONE']
 
