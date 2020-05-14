@@ -13,12 +13,12 @@ let g:colors_name = "pop-punk"
 " Palette
 
 let s:white = ['#ffffff', 231]
-let s:gray_1 = ['#1a1a1a', 102]
-let s:gray_2 = ['#2e373e', 102]
-let s:gray_3 = ['#3a3a3a', 102]
-let s:gray_4 = ['#767c88', 109]
-let s:gray_5 = ['#8b8a7c', 109]
-let s:gray_6 = ['#909da8', 103]
+let s:gray_1 = ['#1a1a1a', 16]
+let s:gray_2 = ['#2e373e', 237]
+let s:gray_3 = ['#3a3a3a', 237]
+let s:gray_4 = ['#767c88', 60]
+let s:gray_5 = ['#8b8a7c', 101]
+let s:gray_6 = ['#909da8', 109]
 let s:gray_7 = ['#939aa8', 103]
 let s:black = ['#000000', 16]
 let s:eggshell = ['#ffffcd', 230]
