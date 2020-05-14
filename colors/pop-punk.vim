@@ -13,13 +13,12 @@ let g:colors_name = "pop-punk"
 " Palette
 
 let s:white = ['#ffffff', 15]
-let s:gray_1 = ['#1a1a1a', 16]
+let s:gray_1 = ['#1a1a1a', 234]
 let s:gray_2 = ['#2e373e', 237]
 let s:gray_3 = ['#3a3a3a', 237]
 let s:gray_4 = ['#767c88', 60]
 let s:gray_5 = ['#8b8a7c', 101]
-let s:gray_6 = ['#909da8', 109]
-let s:gray_7 = ['#939aa8', 103]
+let s:gray_6 = ['#8787af', 103]
 let s:black = ['#000000', 16]
 let s:eggshell = ['#ffffcd', 230]
 let s:mauve = ['#e4dfff', 189]
@@ -128,21 +127,21 @@ call s:h('ErrorMsg', s:red_2, s:none)
 call s:h('FoldColumn', s:gray_1, s:gray_6, [s:attrs.italic])
 call s:h('Folded', s:gray_1, s:gray_6, [s:attrs.italic])
 call s:h('IncSearch', s:white, s:blue)
-call s:h('LineNr', s:gray_7, s:black)
-" call s:h('MoreMsg', s:gray_7, s:black)
+call s:h('LineNr', s:gray_6, s:black)
+" call s:h('MoreMsg', s:gray_6, s:black)
 call s:h('NonText', s:gray_2, s:none)
 call s:h('Pmenu', s:white, s:gray_2)
 call s:h('PmenuSbar', s:none, s:gray_2)
 call s:h('PmenuSel', s:white, s:red_1)
 call s:h('PmenuThumb', s:none, s:cobalt_1)
-" call s:h('Question', s:none, s:gray_7)
+" call s:h('Question', s:none, s:gray_6)
 call s:h('Search', s:white, s:blue)
 call s:h('SignColumn', s:gray_1, s:black)
-call s:h('TabLine', s:black, s:gray_7)
-call s:h('TabLineFill', s:black, s:gray_7)
+call s:h('TabLine', s:black, s:gray_6)
+call s:h('TabLineFill', s:black, s:gray_6)
 call s:h('TabLineSel', s:white, s:black, [s:attrs.bold])
 call s:h('Title', s:white, s:none)
-call s:h('VertSplit', s:gray_7, s:black, [s:attrs.bold])
+call s:h('VertSplit', s:gray_6, s:black, [s:attrs.bold])
 call s:h('Visual', s:gray_1, s:mauve)
 " call s:h('VisualNOS', s:gray_1, s:mauve)
 call s:h('WarningMsg', s:gray_1, s:yellow)
