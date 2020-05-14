@@ -200,6 +200,11 @@ call s:h('Special', s:magenta, s:none, [s:attrs.bold])
 call s:h('SpecialComment', s:blue, s:none, [s:attrs.bold])
 call s:h('Tag', s:orange, s:none)
 
+
+call s:h('ALEErrorSign', s:red_2, s:none)
+call s:h('ALEWarningSign', s:yellow, s:none)
+hi! link CocErrorSign ALEErrorSign
+hi! link CocWarningSign ALEWarningSign
 call s:h('CocErrorFloat', s:red_2, s:none, [s:attrs.bold])
 call s:h('CocWarningFloat', s:orange, s:none, [s:attrs.bold])
 
