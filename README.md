@@ -20,10 +20,11 @@ Screenshots were taken with the following settings:
 
 ## Screenshots
 
-![typescript](assets/typescript.png)
-![popup](assets/popup.png)
-![tsx](assets/tsx.png)
+![jsx](assets/jsx.png)
+![css](assets/css.png)
 ![ruby](assets/ruby.png)
+![html](assets/html.png)
+![popup](assets/popup.png)
 
 ## To do
 
