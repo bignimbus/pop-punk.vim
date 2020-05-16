@@ -12,31 +12,31 @@ let g:colors_name = "pop-punk"
 
 " Palette
 
-let s:pop_punk_colors = pop_punk#GetColors()
+let s:colors = pop_punk#GetColors()
 
-let s:white = s:pop_punk_colors.white
-let s:gray_1 = s:pop_punk_colors.gray_1
-let s:gray_2 = s:pop_punk_colors.gray_2
-let s:gray_3 = s:pop_punk_colors.gray_3
-let s:gray_4 = s:pop_punk_colors.gray_4
-let s:gray_5 = s:pop_punk_colors.gray_5
-let s:gray_6 = s:pop_punk_colors.gray_6
-let s:black = s:pop_punk_colors.black
-let s:eggshell = s:pop_punk_colors.eggshell
-let s:mauve = s:pop_punk_colors.mauve
-let s:blue = s:pop_punk_colors.blue
-let s:teal = s:pop_punk_colors.teal
-let s:magenta = s:pop_punk_colors.magenta
-let s:burgundy = s:pop_punk_colors.burgundy
-let s:red_1 = s:pop_punk_colors.red_1
-let s:red_2 = s:pop_punk_colors.red_2
-let s:orange = s:pop_punk_colors.orange
-let s:sun = s:pop_punk_colors.sun
-let s:yellow = s:pop_punk_colors.yellow
-let s:pink = s:pop_punk_colors.pink
-let s:green = s:pop_punk_colors.green
-let s:cobalt_1 = s:pop_punk_colors.cobalt_1
-let s:cobalt_2 = s:pop_punk_colors.cobalt_2
+let s:white = s:colors.white
+let s:gray_1 = s:colors.gray_1
+let s:gray_2 = s:colors.gray_2
+let s:gray_3 = s:colors.gray_3
+let s:gray_4 = s:colors.gray_4
+let s:gray_5 = s:colors.gray_5
+let s:gray_6 = s:colors.gray_6
+let s:black = s:colors.black
+let s:eggshell = s:colors.eggshell
+let s:mauve = s:colors.mauve
+let s:blue = s:colors.blue
+let s:teal = s:colors.teal
+let s:magenta = s:colors.magenta
+let s:burgundy = s:colors.burgundy
+let s:red_1 = s:colors.red_1
+let s:red_2 = s:colors.red_2
+let s:orange = s:colors.orange
+let s:sun = s:colors.sun
+let s:yellow = s:colors.yellow
+let s:pink = s:colors.pink
+let s:green = s:colors.green
+let s:cobalt_1 = s:colors.cobalt_1
+let s:cobalt_2 = s:colors.cobalt_2
 
 let s:none      = ['NONE', 'NONE']
 
