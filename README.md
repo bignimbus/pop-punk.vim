@@ -1,6 +1,6 @@
 # 🎸 Pop-Punk
 
-![jsx](https://gitcdn.link/repo/bignimbus/pop-punk.vim/6e236913d73448405906b2079758aed4b91a6203/assets/jsx.png)
+![jsx](https://gitcdn.link/repo/bignimbus/pop-punk.vim/399158b28310078b1b6d3392e6fe9ccd8e9d9b63/assets/jsx.png)
 
 ## Installation
 
@@ -30,15 +30,15 @@ Screenshots were taken with the following settings:
 
 ### Color scheme
 
-![css](https://gitcdn.link/repo/bignimbus/pop-punk.vim/6e236913d73448405906b2079758aed4b91a6203/assets/css.png)
-![ruby](https://gitcdn.link/repo/bignimbus/pop-punk.vim/6e236913d73448405906b2079758aed4b91a6203/assets/ruby.png)
-![html](https://gitcdn.link/repo/bignimbus/pop-punk.vim/6e236913d73448405906b2079758aed4b91a6203/assets/html.png)
-![popup](https://gitcdn.link/repo/bignimbus/pop-punk.vim/6e236913d73448405906b2079758aed4b91a6203/assets/popup.png)
+![css](https://gitcdn.link/repo/bignimbus/pop-punk.vim/399158b28310078b1b6d3392e6fe9ccd8e9d9b63/assets/css.png)
+![ruby](https://gitcdn.link/repo/bignimbus/pop-punk.vim/399158b28310078b1b6d3392e6fe9ccd8e9d9b63/assets/ruby.png)
+![html](https://gitcdn.link/repo/bignimbus/pop-punk.vim/399158b28310078b1b6d3392e6fe9ccd8e9d9b63/assets/html.png)
+![popup](https://gitcdn.link/repo/bignimbus/pop-punk.vim/399158b28310078b1b6d3392e6fe9ccd8e9d9b63/assets/popup.png)
 
 ### Airline theme
 
-![Airline normal](https://gitcdn.link/repo/bignimbus/pop-punk.vim/6e236913d73448405906b2079758aed4b91a6203/assets/airline-normal.png)
-![Airline insert](https://gitcdn.link/repo/bignimbus/pop-punk.vim/6e236913d73448405906b2079758aed4b91a6203/assets/airline-insert.png)
-![Airline visual](https://gitcdn.link/repo/bignimbus/pop-punk.vim/6e236913d73448405906b2079758aed4b91a6203/assets/airline-visual.png)
-![Airline replace](https://gitcdn.link/repo/bignimbus/pop-punk.vim/6e236913d73448405906b2079758aed4b91a6203/assets/airline-replace.png)
-![Airline tabline](https://gitcdn.link/repo/bignimbus/pop-punk.vim/6e236913d73448405906b2079758aed4b91a6203/assets/airline-tabline.png)
+![Airline normal](https://gitcdn.link/repo/bignimbus/pop-punk.vim/399158b28310078b1b6d3392e6fe9ccd8e9d9b63/assets/airline-normal.png)
+![Airline insert](https://gitcdn.link/repo/bignimbus/pop-punk.vim/399158b28310078b1b6d3392e6fe9ccd8e9d9b63/assets/airline-insert.png)
+![Airline visual](https://gitcdn.link/repo/bignimbus/pop-punk.vim/399158b28310078b1b6d3392e6fe9ccd8e9d9b63/assets/airline-visual.png)
+![Airline replace](https://gitcdn.link/repo/bignimbus/pop-punk.vim/399158b28310078b1b6d3392e6fe9ccd8e9d9b63/assets/airline-replace.png)
+![Airline tabline](https://gitcdn.link/repo/bignimbus/pop-punk.vim/399158b28310078b1b6d3392e6fe9ccd8e9d9b63/assets/airline-tabline.png)
