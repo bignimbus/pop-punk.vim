@@ -28,14 +28,16 @@ let s:R2 = [ s:colors.eggshell[0], s:colors.gray_3[0]  , s:colors.eggshell[1], s
 let s:R3 = [ s:colors.gray_6[0]  , s:colors.black[0]   , s:colors.gray_6[1]  , s:colors.black[1]    ]
 
 " Inactive Mode
-let s:IA = [ s:colors.gray_6[0]  , s:colors.black[0]   , s:colors.gray_6[1] , s:colors.black[1] , 'italic' ]
+let s:IA1 = [ s:colors.black[0]  , s:colors.gray_4[0]   , s:colors.black[1] , s:colors.gray_4[1] ,  'italic' ]
+let s:IA2 = [ s:colors.gray_6[0], s:colors.gray_2[0]  , s:colors.gray_6[1], s:colors.gray_2[1], 'italic' ]
+let s:IA3 = [ s:colors.gray_6[0]  , s:colors.black[0]   , s:colors.gray_6[1]  , s:colors.black[1]    ]
 
 let g:airline#themes#pop_punk#palette = {}
 let g:airline#themes#pop_punk#palette.normal  = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 let g:airline#themes#pop_punk#palette.insert  = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
 let g:airline#themes#pop_punk#palette.visual  = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
 let g:airline#themes#pop_punk#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
-let g:airline#themes#pop_punk#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
+let g:airline#themes#pop_punk#palette.inactive = airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)
 
 " Warning Mode
 let s:WI = [ s:colors.yellow[0] , s:colors.gray_2[0] , s:colors.yellow[1] , s:colors.gray_2[1] , 'bold' ]
