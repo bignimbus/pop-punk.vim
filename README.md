@@ -9,10 +9,18 @@ Use your plugin manager of choice.
 ```vim
 " .vimrc
 
-colorscheme pop-punk
+" example using vim-plug
+call plug#begin('~/.vimplugins')
+
+Plug 'bignimbus/pop-punk.vim'
+" ...
+
+call plug#end()
+
+colorscheme 'pop-punk'
 
 " for the airline theme - note the underscore instead of the hyphen
-let g:airline_theme="pop_punk"
+let g:airline_theme='pop_punk'
 
 " just for fun
 let g:airline_section_c='🎸 %F'
