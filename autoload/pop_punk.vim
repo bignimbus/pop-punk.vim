@@ -19,7 +19,7 @@ let s:colors.orange = ['#ff9d00', 214]
 let s:colors.sun = ['#ffdd00', 220]
 let s:colors.yellow = ['#ffff00', 11]
 let s:colors.pink = ['#f9e0f5', 225]
-let s:colors.green = ['#3ad900', 76]
+let s:colors.green = ['#5ff967', 76]
 let s:colors.cobalt_1 = ['#306b8f', 24]
 let s:colors.cobalt_2 = ['#445291', 60]
 
