@@ -19,6 +19,9 @@ call plug#end()
 
 colorscheme 'pop-punk'
 
+" pop-punk ANSI colors for vim terminal
+let g:terminal_ansi_colors = pop_punk#AnsiColors()
+
 " for the airline theme - note the underscore instead of the hyphen
 let g:airline_theme='pop_punk'
 

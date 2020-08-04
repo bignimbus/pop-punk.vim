@@ -26,3 +26,24 @@ let s:colors.cobalt_2 = ['#445291', 60]
 function! pop_punk#GetColors()
   return s:colors
 endfunction
+
+function! pop_punk#AnsiColors()
+  return [
+        \'#000000',
+        \'#d70061',
+        \'#3ad900',
+        \'#ff9d00',
+        \'#008ec2',
+        \'#9f1ece',
+        \'#40e0d0',
+        \'#ffffff',
+        \'#333333',
+        \'#ff005f',
+        \'#5ff967',
+        \'#ffff00',
+        \'#00bbff',
+        \'#c526ff',
+        \'#95e3db',
+        \'#ffffff'
+        \]
+endfunction
