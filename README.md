@@ -2,6 +2,8 @@
 
 ![jsx](https://gitcdn.link/repo/bignimbus/pop-punk.vim/b7e88151da9cf4c18a6d544a058641c01018c1dc/assets/jsx.png)
 
+Dark, high-contrast color scheme and theme for vim
+
 ## Installation
 
 Use your plugin manager of choice.
