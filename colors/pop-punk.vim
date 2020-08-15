@@ -211,6 +211,8 @@ hi! link CocInfoSign ALEWarningSign
 call s:h('CocErrorFloat', s:red_2, s:none, [s:attrs.bold])
 call s:h('CocWarningFloat', s:orange, s:none, [s:attrs.bold])
 
+call s:h('YouAreHereActiveBorder', s:magenta, s:gray_2)
+
 hi default CocUnderline cterm=undercurl gui=undercurl
 
 " hi! link helpHyperTextJump PopPunkLink
