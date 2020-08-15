@@ -25,10 +25,10 @@ colorscheme 'pop-punk'
 let g:terminal_ansi_colors = pop_punk#AnsiColors()
 
 " for the airline theme - note the underscore instead of the hyphen
-let g:airline_theme='pop_punk'
+let g:airline_theme = 'pop_punk'
 
 " just for fun
-let g:airline_section_c='🎸 %F'
+let g:airline_section_c = '🎸 %F'
 ```
 
 ## Notes
