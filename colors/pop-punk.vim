@@ -146,7 +146,7 @@ call s:h('Title', s:white, s:none)
 call s:h('VertSplit', s:magenta, s:black)
 call s:h('Visual', s:gray_1, s:mauve)
 " call s:h('VisualNOS', s:gray_1, s:mauve)
-call s:h('WarningMsg', s:gray_1, s:yellow)
+call s:h('WarningMsg', s:yellow, s:black)
 
 " Syntax
 
@@ -157,7 +157,7 @@ call s:h('MatchParen', s:white, s:blue)
 call s:h('SpecialKey', s:sun, s:none)
 
 call s:h('Comment', s:blue, s:none, [s:attrs.italic])
-" call s:h('Underlined', s:blue, s:none, [s:attrs.italic])
+call s:h('Underlined', s:blue, s:none, [s:attrs.underline])
 call s:h('Todo', s:orange, s:black)
 
 call s:h('Error', s:red_2, s:none)
