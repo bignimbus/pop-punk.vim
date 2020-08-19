@@ -31,6 +31,16 @@ let g:airline_theme = 'pop_punk'
 let g:airline_section_c = '🎸 %F'
 ```
 
+## Plugins supported
+
+Some plugins have custom highlight groups.  Pop-punk supports
+some highlight groups from the following plugins:
+
+* [vim-airline](https://github.com/vim-airline/vim-airline)
+* [coc.nvim](https://github.com/neoclide/coc.nvim)
+* [vim-ale](https://github.com/dense-analysis/ale)
+* [you-are-here.vim](https://github.com/bignimbus/you-are-here.vim)
+
 ## Notes
 
 Screenshots were taken with the following settings:
