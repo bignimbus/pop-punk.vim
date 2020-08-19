@@ -202,7 +202,12 @@ call s:h('Special', s:magenta, s:none, [s:attrs.bold])
 call s:h('SpecialComment', s:blue, s:none, [s:attrs.bold])
 call s:h('Tag', s:orange, s:none)
 
+" netrw
+call s:h('netrwTreeBar', s:blue, s:none)
+call s:h('netrwDir', s:magenta, s:none)
+call s:h('netrwClassify', s:orange, s:none)
 
+" vim-ale, coc.nvim
 call s:h('ALEErrorSign', s:red_2, s:none)
 call s:h('ALEWarningSign', s:yellow, s:none)
 hi! link CocErrorSign ALEErrorSign
@@ -211,6 +216,7 @@ hi! link CocInfoSign ALEWarningSign
 call s:h('CocErrorFloat', s:red_2, s:none, [s:attrs.bold])
 call s:h('CocWarningFloat', s:orange, s:none, [s:attrs.bold])
 
+" you-are-here.vim
 call s:h('YouAreHereActiveBorder', s:magenta, s:gray_2)
 
 hi default CocUnderline cterm=undercurl gui=undercurl
