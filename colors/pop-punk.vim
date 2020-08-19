@@ -157,7 +157,7 @@ call s:h('MatchParen', s:white, s:blue)
 call s:h('SpecialKey', s:sun, s:none)
 
 call s:h('Comment', s:blue, s:none, [s:attrs.italic])
-" call s:h('Underlined', s:blue, s:none, [s:attrs.italic])
+call s:h('Underlined', s:blue, s:none, [s:attrs.underline])
 call s:h('Todo', s:orange, s:black)
 
 call s:h('Error', s:red_2, s:none)
