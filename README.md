@@ -40,7 +40,7 @@ Some plugins have custom highlight groups.  Pop-punk supports
 some highlight groups from the following plugins:
 
 * [vim-airline](https://github.com/vim-airline/vim-airline)
-* [vim-lightline](https://github.com/itchyny/lightline.vim)
+* [lightline.vim](https://github.com/itchyny/lightline.vim)
 * [coc.nvim](https://github.com/neoclide/coc.nvim)
 * [vim-ale](https://github.com/dense-analysis/ale)
 * [you-are-here.vim](https://github.com/bignimbus/you-are-here.vim)
