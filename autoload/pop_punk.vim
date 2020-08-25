@@ -37,7 +37,7 @@ function! pop_punk#AnsiColors()
         \'#9f1ece',
         \'#40e0d0',
         \'#ffffff',
-        \'#333333',
+        \'#8787af',
         \'#ff005f',
         \'#5ff967',
         \'#ffff00',
