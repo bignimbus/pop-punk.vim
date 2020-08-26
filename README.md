@@ -44,6 +44,7 @@ some highlight groups from the following plugins:
 * [coc.nvim](https://github.com/neoclide/coc.nvim)
 * [vim-ale](https://github.com/dense-analysis/ale)
 * [you-are-here.vim](https://github.com/bignimbus/you-are-here.vim)
+* [vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
 
 ## Notes
 

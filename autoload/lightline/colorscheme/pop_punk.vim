@@ -14,28 +14,28 @@ if exists('g:lightline')
 
 	" Normal Mode
 	let s:p.normal.left   = [ [ s:colors.white , s:colors.magenta ], [ s:colors.pink, s:colors.gray_2 ] ]
-	let s:p.normal.middle = [ [ s:colors.gray_6, s:colors.black   ] ]
+	let s:p.normal.middle = [ [ s:colors.gray_7, s:colors.black   ] ]
 	let s:p.normal.right  = copy(s:p.normal.left)
 
 	" Insert mode
 	let s:p.insert.left   = [ [ s:colors.white,  s:colors.blue  ], [ s:colors.mauve, s:colors.cobalt_2 ] ]
-	let s:p.insert.middle = [ [ s:colors.gray_6, s:colors.black ] ]
+	let s:p.insert.middle = [ [ s:colors.gray_7, s:colors.black ] ]
 	let s:p.insert.right  = copy(s:p.insert.left)
 
 	" Visual mode
 	let s:p.visual.left   = [ [ s:colors.black,  s:colors.orange ], [ s:colors.orange, s:colors.gray_2 ] ]
-	let s:p.visual.middle = [ [ s:colors.gray_6, s:colors.black  ]                                       ]
+	let s:p.visual.middle = [ [ s:colors.gray_7, s:colors.black  ]                                       ]
 	let s:p.visual.right  = copy(s:p.visual.left)
 
 	" Replace mode
 	let s:p.replace.left   = [ [ s:colors.black,  s:colors.yellow ], [ s:colors.eggshell, s:colors.gray_3 ] ]
-	let s:p.replace.middle = [ [ s:colors.gray_6,  s:colors.black ] ]
+	let s:p.replace.middle = [ [ s:colors.gray_7,  s:colors.black ] ]
 	let s:p.replace.right  = copy(s:p.replace.left)
 
 	" Inactive windows
-	let s:p.inactive.left     = [ [ s:colors.gray_6,   s:colors.gray_2 ], [ s:colors.gray_6, s:colors.gray_2, 'italic' ] ]
-	let s:p.inactive.middle   = [ [ s:colors.gray_4,  s:colors.black ] ]
-	let s:p.inactive.right    = [ [ s:colors.black,   s:colors.gray_6 ], [ s:colors.gray_6, s:colors.gray_2 ] ]
+	let s:p.inactive.left     = [ [ s:colors.gray_7,   s:colors.gray_2 ], [ s:colors.gray_7, s:colors.gray_2, 'italic' ] ]
+	let s:p.inactive.middle   = [ [ s:colors.gray_5,  s:colors.black ] ]
+	let s:p.inactive.right    = [ [ s:colors.black,   s:colors.gray_7 ], [ s:colors.gray_7, s:colors.gray_2 ] ]
 
 	" Tab line
 	let s:p.tabline.left   = copy(s:p.normal.middle)

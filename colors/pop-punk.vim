@@ -21,6 +21,7 @@ let s:gray_3 = s:colors.gray_3
 let s:gray_4 = s:colors.gray_4
 let s:gray_5 = s:colors.gray_5
 let s:gray_6 = s:colors.gray_6
+let s:gray_7 = s:colors.gray_7
 let s:black = s:colors.black
 let s:eggshell = s:colors.eggshell
 let s:mauve = s:colors.mauve
@@ -110,15 +111,15 @@ set background=dark
 call s:h('Normal', s:white, s:black)
 
 call s:h('StatusLine', s:magenta, s:gray_2, [s:attrs.bold])
-call s:h('StatusLineNC', s:gray_6, s:gray_2, [s:attrs.italic])
+call s:h('StatusLineNC', s:gray_7, s:gray_2, [s:attrs.italic])
 " call s:h('StatusLineTerm', s:none, s:bglighter, [s:attrs.bold])
 " call s:h('StatusLineTermNC', s:none, s:bglight)
-call s:h('WildMenu', s:none, s:gray_6)
+call s:h('WildMenu', s:none, s:gray_7)
 call s:h('Cursor', s:black, s:mauve)
 call s:h('CursorLine', s:none, s:gray_1)
 call s:h('CursorColumn', s:none, s:gray_1)
 call s:h('CursorLineNr', s:yellow, s:none)
-call s:h('Debug', s:gray_5, s:none)
+call s:h('Debug', s:gray_6, s:none)
 call s:h('DiffAdd', s:none, s:gray_3)
 call s:h('DiffChange', s:eggshell, s:cobalt_1)
 call s:h('DiffDelete', s:red_2, s:none)
@@ -126,12 +127,12 @@ call s:h('DiffDelete', s:red_2, s:none)
 call s:h('DiffText', s:eggshell, s:burgundy)
 call s:h('Directory', s:magenta, s:none)
 call s:h('ErrorMsg', s:red_2, s:none)
-call s:h('FoldColumn', s:gray_1, s:gray_6, [s:attrs.italic])
-call s:h('Folded', s:gray_1, s:gray_6, [s:attrs.italic])
+call s:h('FoldColumn', s:gray_1, s:gray_7, [s:attrs.italic])
+call s:h('Folded', s:gray_1, s:gray_7, [s:attrs.italic])
 call s:h('IncSearch', s:white, s:blue)
-call s:h('LineNr', s:gray_6, s:black)
+call s:h('LineNr', s:gray_7, s:black)
 call s:h('MoreMsg', s:pink, s:gray_2)
-call s:h('NonText', s:gray_4, s:none)
+call s:h('NonText', s:gray_5, s:none)
 call s:h('Pmenu', s:white, s:gray_2)
 call s:h('PmenuSbar', s:none, s:gray_2)
 call s:h('PmenuSel', s:white, s:red_1)
@@ -154,7 +155,7 @@ call s:h('WarningMsg', s:yellow, s:black)
 call s:h('MatchParen', s:white, s:blue)
 " call s:h('Conceal', s:cyan, s:none)
 
-call s:h('SpecialKey', s:gray_4, s:none)
+call s:h('SpecialKey', s:gray_5, s:none)
 
 call s:h('Comment', s:blue, s:none, [s:attrs.italic])
 call s:h('Underlined', s:blue, s:none, [s:attrs.underline])
@@ -188,7 +189,7 @@ call s:h('Keyword', s:sun, s:none, [s:attrs.bold])
 call s:h('PreProc', s:magenta, s:none)
 hi! link Include PreProc
 hi! link PreCondit PreProc
-call s:h('Define', s:gray_5, s:none)
+call s:h('Define', s:gray_6, s:none)
 call s:h('Macro', s:sun, s:none)
 call s:h('StorageClass', s:teal, s:none, [s:attrs.bold])
 hi! link Typedef StorageClass
@@ -196,7 +197,7 @@ call s:h('Structure', s:orange, s:none, [s:attrs.bold])
 
 call s:h('Type', s:teal, s:none, [s:attrs.bold])
 
-call s:h('Delimiter', s:gray_5, s:none)
+call s:h('Delimiter', s:gray_6, s:none)
 
 call s:h('Special', s:magenta, s:none, [s:attrs.bold])
 call s:h('SpecialComment', s:blue, s:none, [s:attrs.bold])
@@ -206,6 +207,7 @@ call s:h('Tag', s:orange, s:none)
 call s:h('netrwTreeBar', s:blue, s:none)
 call s:h('netrwDir', s:magenta, s:none)
 call s:h('netrwClassify', s:orange, s:none)
+call s:h('netrwSuffixes', s:sun, s:none)
 
 " vim-ale, coc.nvim
 call s:h('ALEErrorSign', s:red_2, s:none)
@@ -216,6 +218,10 @@ hi! link CocInfoSign ALEWarningSign
 call s:h('CocErrorFloat', s:red_2, s:none, [s:attrs.bold])
 call s:h('CocWarningFloat', s:orange, s:none, [s:attrs.bold])
 
+" vim-indent-guides
+call s:h('IndentGuidesOdd', s:gray_4, s:none)
+call s:h('IndentGuidesEven', s:gray_4, s:none)
+
 " you-are-here.vim
 call s:h('YouAreHereActiveBorder', s:magenta, s:gray_2)
 
@@ -225,5 +231,3 @@ hi default CocUnderline cterm=undercurl gui=undercurl
 " hi! link helpCommand PopPunkPurple
 " hi! link helpExample PopPunkGreen
 " hi! link helpBacktick Special
-" hi! link ColorColumn  PopPunkBgDark
-" call s:h('DiffAdded', s:none, s:gray_3)
