@@ -225,6 +225,9 @@ call s:h('IndentGuidesEven', s:gray_4, s:none)
 " you-are-here.vim
 call s:h('YouAreHereActiveBorder', s:magenta, s:gray_2)
 
+" vim-startify
+call s:h('StartifyHeader', s:magenta, s:none)
+
 hi default CocUnderline cterm=undercurl gui=undercurl
 
 " hi! link helpHyperTextJump PopPunkLink

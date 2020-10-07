@@ -45,6 +45,7 @@ some highlight groups from the following plugins:
 * [vim-ale](https://github.com/dense-analysis/ale)
 * [you-are-here.vim](https://github.com/bignimbus/you-are-here.vim)
 * [vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
+* [vim-startify](https://github.com/mhinz/vim-startify)
 
 ## Notes
 
