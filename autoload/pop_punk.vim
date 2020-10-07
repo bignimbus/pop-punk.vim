@@ -30,21 +30,21 @@ endfunction
 
 function! pop_punk#AnsiColors()
   return [
-        \'#000000',
-        \'#d70061',
-        \'#3ad900',
-        \'#ff9d00',
-        \'#008ec2',
-        \'#9f1ece',
-        \'#40e0d0',
-        \'#ffffff',
-        \'#8787af',
-        \'#ff005f',
-        \'#5ff967',
-        \'#ffff00',
-        \'#00bbff',
-        \'#c526ff',
-        \'#95e3db',
-        \'#ffffff'
+        \s:colors.black[0],
+        \s:colors.red_2[0],
+        \s:colors.green[0],
+        \s:colors.orange[0],
+        \s:colors.blue[0],
+        \s:colors.magenta[0],
+        \s:colors.teal[0],
+        \s:colors.white[0],
+        \s:colors.gray_7[0],
+        \s:colors.red_2[0],
+        \s:colors.green[0],
+        \s:colors.yellow[0],
+        \s:colors.blue[0],
+        \s:colors.magenta[0],
+        \s:colors.teal[0],
+        \s:colors.pink[0]
         \]
 endfunction
