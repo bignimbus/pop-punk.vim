@@ -47,6 +47,10 @@ some highlight groups from the following plugins:
 * [vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
 * [vim-startify](https://github.com/mhinz/vim-startify)
 
+## Other 🎸 Pop-Punk themes
+
+* [Pop-Punk.muttrc](https://github.com/bignimbus/pop-punk.muttrc) for Mutt / Neomutt
+
 ## Notes
 
 Screenshots were taken with the following settings:
