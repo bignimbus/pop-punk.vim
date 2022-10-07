@@ -1,6 +1,6 @@
 # 🎸 Pop-Punk
 
-![jsx](https://github.com/bignimbus/pop-punk.vim/blob/master/assets/jsx.png)
+![jsx](https://github.com/bignimbus/pop-punk.vim/blob/main/assets/jsx.png)
 
 Dark, high-contrast color scheme for vim
 
@@ -63,17 +63,17 @@ Screenshots were taken with the following settings:
 
 ### Color scheme
 
-![css](https://github.com/bignimbus/pop-punk.vim/blob/master/assets/css.png)
-![ruby](https://github.com/bignimbus/pop-punk.vim/blob/master/assets/ruby.png)
-![html](https://github.com/bignimbus/pop-punk.vim/blob/master/assets/html.png)
-![popup](https://github.com/bignimbus/pop-punk.vim/blob/master/assets/popup.png)
-![terminal](https://github.com/bignimbus/pop-punk.vim/blob/master/assets/terminal.png)
+![css](https://github.com/bignimbus/pop-punk.vim/blob/main/assets/css.png)
+![ruby](https://github.com/bignimbus/pop-punk.vim/blob/main/assets/ruby.png)
+![html](https://github.com/bignimbus/pop-punk.vim/blob/main/assets/html.png)
+![popup](https://github.com/bignimbus/pop-punk.vim/blob/main/assets/popup.png)
+![terminal](https://github.com/bignimbus/pop-punk.vim/blob/main/assets/terminal.png)
 
 ### Airline theme
 
-![Airline normal](https://github.com/bignimbus/pop-punk.vim/blob/master/assets/airline-normal.png)
-![Airline insert](https://github.com/bignimbus/pop-punk.vim/blob/master/assets/airline-insert.png)
-![Airline visual](https://github.com/bignimbus/pop-punk.vim/blob/master/assets/airline-visual.png)
-![Airline replace](https://github.com/bignimbus/pop-punk.vim/blob/master/assets/airline-replace.png)
-![Airline inactive](https://github.com/bignimbus/pop-punk.vim/blob/master/assets/airline-inactive.png)
-![Airline tabline](https://github.com/bignimbus/pop-punk.vim/blob/master/assets/airline-tabline.png)
+![Airline normal](https://github.com/bignimbus/pop-punk.vim/blob/main/assets/airline-normal.png)
+![Airline insert](https://github.com/bignimbus/pop-punk.vim/blob/main/assets/airline-insert.png)
+![Airline visual](https://github.com/bignimbus/pop-punk.vim/blob/main/assets/airline-visual.png)
+![Airline replace](https://github.com/bignimbus/pop-punk.vim/blob/main/assets/airline-replace.png)
+![Airline inactive](https://github.com/bignimbus/pop-punk.vim/blob/main/assets/airline-inactive.png)
+![Airline tabline](https://github.com/bignimbus/pop-punk.vim/blob/main/assets/airline-tabline.png)
