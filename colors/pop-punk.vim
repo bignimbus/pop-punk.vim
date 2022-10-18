@@ -129,7 +129,7 @@ call s:h('Directory', s:magenta, s:none)
 call s:h('ErrorMsg', s:red_2, s:none)
 call s:h('FoldColumn', s:gray_1, s:gray_7, [s:attrs.italic])
 call s:h('Folded', s:gray_1, s:gray_7, [s:attrs.italic])
-call s:h('IncSearch', s:white, s:blue)
+call s:h('IncSearch', s:mauve, s:cobalt_2)
 call s:h('LineNr', s:gray_7, s:black)
 call s:h('MoreMsg', s:pink, s:gray_2)
 call s:h('NonText', s:gray_5, s:none)
@@ -138,7 +138,7 @@ call s:h('PmenuSbar', s:none, s:gray_2)
 call s:h('PmenuSel', s:white, s:red_1)
 call s:h('PmenuThumb', s:none, s:cobalt_1)
 call s:h('Question', s:pink, s:gray_2)
-call s:h('Search', s:white, s:blue)
+call s:h('Search', s:white, s:red_1)
 call s:h('SignColumn', s:gray_1, s:black)
 call s:h('TabLine', s:magenta, s:gray_2)
 call s:h('TabLineFill', s:white, s:black)
@@ -152,7 +152,7 @@ call s:h('WarningMsg', s:yellow, s:black)
 " Syntax
 
 " Required as some plugins will overwrite
-call s:h('MatchParen', s:white, s:blue)
+call s:h('MatchParen', s:mauve, s:cobalt_2)
 " call s:h('Conceal', s:cyan, s:none)
 
 call s:h('SpecialKey', s:gray_5, s:none)
@@ -209,14 +209,18 @@ call s:h('netrwDir', s:magenta, s:none)
 call s:h('netrwClassify', s:orange, s:none)
 call s:h('netrwSuffixes', s:sun, s:none)
 
-" vim-ale, coc.nvim
+" vim-ale
 call s:h('ALEErrorSign', s:red_2, s:none)
 call s:h('ALEWarningSign', s:yellow, s:none)
+
+" coc.nvim
 hi! link CocErrorSign ALEErrorSign
 hi! link CocWarningSign ALEWarningSign
 hi! link CocInfoSign ALEWarningSign
 call s:h('CocErrorFloat', s:red_2, s:none, [s:attrs.bold])
 call s:h('CocWarningFloat', s:orange, s:none, [s:attrs.bold])
+hi default CocUnderline cterm=undercurl gui=undercurl
+call s:h('CocMenuSel', s:none, s:red_1)
 
 " vim-indent-guides
 call s:h('IndentGuidesOdd', s:gray_4, s:none)
@@ -228,7 +232,30 @@ call s:h('YouAreHereActiveBorder', s:magenta, s:gray_2)
 " vim-startify
 call s:h('StartifyHeader', s:magenta, s:none)
 
-hi default CocUnderline cterm=undercurl gui=undercurl
+" vim-graphql
+call s:h('graphqlType', s:pink, s:none)
+call s:h('graphqlVariable', s:red_1, s:none)
+call s:h('graphqlTemplateString', s:blue, s:none)
+
+" vim-css
+call s:h('cssClassName', s:pink, s:none, [s:attrs.bold])
+call s:h('cssPseudoClassId', s:yellow, s:none, [s:attrs.bold])
+call s:h('cssAtRule', s:sun, s:none)
+call s:h('cssProp', s:teal, s:none)
+call s:h('cssDefinition', s:teal, s:none)
+call s:h('cssFunctionName', s:pink, s:none, [s:attrs.bold])
+call s:h('cssCustomProp', s:magenta, s:none)
+call s:h('cssBraces', s:white, s:none, [s:attrs.bold])
+
+" vim-typescript
+call s:h('typescriptBraces', s:pink, s:none, [s:attrs.bold])
+call s:h('typescriptVariableDeclaration', s:pink, s:none)
+call s:h('typescriptDotNotation', s:blue, s:none)
+call s:h('typescriptBOM', s:pink, s:none, [s:attrs.bold])
+call s:h('typescriptTemplateSB', s:magenta, s:none, [s:attrs.bold])
+
+" vim-markdown
+call s:h('mkdHeading', s:orange, s:none, [s:attrs.bold])
 
 " hi! link helpHyperTextJump PopPunkLink
 " hi! link helpCommand PopPunkPurple
