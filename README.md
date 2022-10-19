@@ -1,6 +1,6 @@
 # 🎸 Pop-Punk
 
-![jsx](https://github.com/bignimbus/pop-punk.vim/blob/main/assets/jsx.png)
+![jsx](https://github.com/bignimbus/pop-punk.vim/blob/main/assets/ts.png)
 
 Dark, high-contrast color scheme for vim
 
@@ -67,6 +67,7 @@ Screenshots were taken with the following settings:
 ![ruby](https://github.com/bignimbus/pop-punk.vim/blob/main/assets/ruby.png)
 ![html](https://github.com/bignimbus/pop-punk.vim/blob/main/assets/html.png)
 ![popup](https://github.com/bignimbus/pop-punk.vim/blob/main/assets/popup.png)
+![ts](https://github.com/bignimbus/pop-punk.vim/blob/main/assets/ts.png)
 ![terminal](https://github.com/bignimbus/pop-punk.vim/blob/main/assets/terminal.png)
 
 ### Airline theme
