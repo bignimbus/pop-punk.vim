@@ -119,6 +119,7 @@ call s:h('Cursor', s:black, s:mauve)
 call s:h('CursorLine', s:none, s:gray_1)
 call s:h('CursorColumn', s:none, s:gray_1)
 call s:h('CursorLineNr', s:yellow, s:none)
+call s:h('CursorLineSign', s:none, s:gray_1)
 call s:h('Debug', s:gray_6, s:none)
 call s:h('DiffAdd', s:none, s:gray_3)
 call s:h('DiffChange', s:eggshell, s:cobalt_1)
@@ -212,6 +213,24 @@ call s:h('netrwSuffixes', s:sun, s:none)
 " vim-ale
 call s:h('ALEErrorSign', s:red_2, s:none)
 call s:h('ALEWarningSign', s:yellow, s:none)
+
+" neovim native LSP diagnostics
+call s:h('DiagnosticError', s:red_2, s:none)
+call s:h('DiagnosticWarn',  s:yellow, s:none)
+call s:h('DiagnosticInfo',  s:pink, s:none)
+call s:h('DiagnosticHint',  s:pink, s:none)
+call s:h('DiagnosticSignError', s:red_2, s:none)
+call s:h('DiagnosticSignWarn',  s:yellow, s:none)
+call s:h('DiagnosticSignInfo',  s:pink, s:none)
+call s:h('DiagnosticSignHint',  s:pink, s:none)
+call s:h('DiagnosticUnderlineError', s:none, s:none, [s:attrs.undercurl], s:red_2)
+call s:h('DiagnosticUnderlineWarn',  s:none, s:none, [s:attrs.undercurl], s:yellow)
+call s:h('DiagnosticUnderlineInfo',  s:none, s:none, [s:attrs.undercurl], s:pink)
+call s:h('DiagnosticUnderlineHint',  s:none, s:none, [s:attrs.undercurl], s:pink)
+call s:h('DiagnosticFloatingError', s:red_2, s:none, [s:attrs.bold])
+call s:h('DiagnosticFloatingWarn',  s:yellow, s:none, [s:attrs.bold])
+call s:h('DiagnosticFloatingInfo',  s:pink, s:none, [s:attrs.bold])
+call s:h('DiagnosticFloatingHint',  s:pink, s:none, [s:attrs.bold])
 
 " coc.nvim
 hi! link CocErrorSign ALEErrorSign
